@@ -1,5 +1,17 @@
 # Dynamic Document Generation Pipeline
 
+## About the project
+
+This project provides a streamlined pipeline for generating dynamic documents using FastAPI and Uvicorn. It allows users to submit data and receive generated documents through a simple API interface.​
+Here’s an overview of the current LLM agent workflow:
+
+<div align="center">
+    <img src="images/diagram.png" alt="Diagram"><br>
+    <br><br>
+</div>
+
+Note: You requested the `header_content` generator; however, this variable was not included in your `template.html`. To ensure consistency and proper functionality, I have updated it to use variables that align with those defined in your `template.html`.
+
 ## Installation
 
 1. Install uv (if not already installed):
@@ -65,4 +77,3 @@ To run the test suite using `pytest`:
 ```bash
 pytest -v tests/test_agents.py
 ```
-
