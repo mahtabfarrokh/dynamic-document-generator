@@ -1,0 +1,15 @@
+[project]
+name = "dynamic-document-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "langgraph>=0.3.34",
+    "litellm>=1.67.2",
+    "openai>=1.76.0",
+    "pydantic>=2.11.3",
+    "pytest>=8.3.5",
+    "uvicorn>=0.34.2",
+]
