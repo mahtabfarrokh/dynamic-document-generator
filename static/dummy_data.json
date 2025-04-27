@@ -1,0 +1,15 @@
+{
+    "org_logo_url": "https://example.com/logo.png",
+    "meeting_date": "2025-05-01",
+    "staff_member_name": "John Doe",
+    "staff_member_designation": "Senior Planner",
+    "staff_member_email": "john.doe@example.com",
+    "staff_member_phone": "123-456-7890",
+    "staff_member_extension": "1234",
+    "application_number": "APP-00123",
+    "location": "1234 Main Street, Springfield",
+    "application_name": "New Community Center",
+    "zoning_district": "R-3 Residential",
+    "use_classification": "Community Facility",
+    "project_description": "Construction of a new 10,000 sq ft community center."
+  }
