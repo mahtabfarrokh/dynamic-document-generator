@@ -1,11 +1,12 @@
-from fastapi import FastAPI, BackgroundTasks
+from fastapi import FastAPI
 from api.endpoints import router as api_router
-import openai
 import configparser
+import os
+
 
 config = configparser.ConfigParser()
 config.read('api.cfg')
-openai.api_key = config.get('openai', 'api_key')
+os.environ["OPENAI_API_KEY"] = config['openai']['api_key']
 
 app = FastAPI(
     title="Dynamic Document Generation",

@@ -30,7 +30,6 @@ async def get_document(doc_id: str):
 @router.get("/view/{doc_id}", response_class=HTMLResponse)
 async def view_document(doc_id: str):
     document = get_document_by_id(doc_id, documents_store)
-    print(document)
     if document:
         return HTMLResponse(content=document, status_code=200)
     else:
